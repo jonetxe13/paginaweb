@@ -1,0 +1,70 @@
+:root {
+  /* background-color: rgb(41, 38, 36); */
+  font-family: monospace;
+  background: -webkit-linear-gradient(top, rgb(39, 39, 39), silver);
+}
+h1 {
+  background-color: rgb(88, 83, 80);
+  color: rgb(138, 151, 245);
+  margin: 30px 20px 0px 20px; 
+  padding: 30px 0px 30px 50px;
+  border: silver solid 5px;
+  border-radius: 20px;
+}
+.partes {
+  display:flex;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 2%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color:cornflowerblue;
+}
+.parte1 {
+    border: 2px solid rgb(59, 68, 87);
+    margin: 0px 7% 0px 7%;
+    padding: 3% 3% 3% 3%;
+    border-radius: 10px;
+    background-color: rgb(88, 83, 80);
+}
+.parte2 {
+    border: 2px solid rgb(59, 68, 87);
+    margin: 0% 20% 0% 20%;
+    padding: 3% 3% 3% 3%;
+    border-radius: 10px;
+    background-color: rgb(88, 83, 80);
+}
+.parte3 {
+    border: 2px solid rgb(59, 68, 87);
+    margin: 0% 7% 0% 7%;
+    padding: 3% 3% 3% 3%;
+    border-radius: 10px;
+    background-color: rgb(88, 83, 80);
+}
+.centro {
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 4% 15% 50px 15%;
+  padding: 450px 0px 450px 0px;
+  color: rgb(57, 59, 75);
+  background-color: rgb(57, 59, 75);
+}
+.fotos {
+  text-align: center;
+  margin: 0px;
+  width: 750px;
+  height: 750px;
+  z-index: -1;
+}
+.boton2 {
+  padding: 10px;
+  margin: 100px 0px 100px 60px;
+}
+.boton3 {
+  padding: 10px;
+  margin: 100px 20px 100px 0px;
+}
+footer {
+  color: white;
+}

@@ -1,68 +1,25 @@
-<style>
-    :root {
-        background-color: rgb(41, 38, 36);
-        font-family: monospace;
-    }
-    h1 {
-        background-color: rgb(88, 83, 80);
-        margin-top: 50px;
-        color: rgb(138, 151, 245);
-        padding: 30px 50px 30px 50px;
-    }
-
-    .boton1 {
-        margin-left: 100px;
-        margin-top: 60px;
-        padding: 20px 50px 20px 50px;
-    }
-    .centro {
-        border-width: 20px;
-        border-radius: 10px;
-        border-color:rgb(247, 244, 242);
-        margin: 100px 150px 150px 150px;
-        padding: 450px 0px 450px 0px;
-        color: rgb(57, 59, 75);
-        background-color: rgb(57, 59, 75);
-    }
-
-    .fotos {
-        text-align: center;
-        margin: 0px;
-        width: 750px;
-        height: 750px;
-        z-index: -1;
-    }
-
-    .boton2 {
-        padding: 10px;
-        margin: 100px 0px 100px 60px;
-    }
-
-    .boton3 {
-        padding: 10px;
-        margin: 100px 20px 100px 0px;
-    }
-
-    footer {
-        color: white;
-    }
-</style>
-
-
 <!DOCTYPE html>
 <html>
+  <head>
     <title>prueba de pagina web</title>
-    <body>
-        <h1>TITULO DE PRUEBA</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <button class="boton1" type="button">Boton 1</button>        
-        
-        <div class="centro">
-            <button class="boton2" type="button">anterior</button>
-            <img src="\\wsl$\Ubuntu-20.04\home\jonetxe13\vscode\paginaweb\camiseta.jpg" class="fotos">
-            <button class="boton3" type="button">siguiente</button>
-        </div>
-    </body>
+  <body>
+    <h1>TITULO DE PRUEBA</h1>
 
-    <footer>Copyright de "nombre de marca"</footer>
+    <div class="partes">
+        <p class="parte1">INICIO</p>
+        <p class="parte2">TIENDA</p>
+        <p class="parte3">SOBRE NOSOTROS</p>
+    </div>
+
+    <div class="centro">
+      <button class="boton2" type="button">anterior</button>
+      <img src="camiseta.jpg" class="fotos"/>
+      <button class="boton3" type="button">siguiente</button>
+    </div>
+  </body>
+
+  <footer>Copyright de "nombre de marca"</footer>
 </html>
