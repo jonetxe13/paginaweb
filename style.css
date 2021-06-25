@@ -45,31 +45,39 @@ h1 {
 .centro{
   border: 3px solid black;
   border-radius: 10px;
-  margin: 4% 15% 50px 15%;
-  padding: 450px 0px 450px 0px;
+  margin: 6% 15% 50px 15%;
+  padding: 450px 0px 200px 0px;
   color: rgb(57, 59, 75);
   background-color: rgb(57, 59, 75);
+}
+h2 {
+  color: white;
+  margin-top: 12%;
+  margin-bottom: -15%;
+  margin-left: 20%;
 }
 .zona-fotos {
   display: flex;
 }
 .fotos {
   text-align: center;
-  margin: 15% 10% 30% 11%;
+  margin: -24% 10% 30% 11%;
   width: 90%;
   height: 80%;
 }
 .boton2 {
   padding: 1% 1% 1% 1%;
-  margin: 55% -20% 72% 7%;
+  margin: 20% -20% 72% 7.5%;
   z-index: 1;
 }
 .boton3 {
   padding: 1% 1% 1% 1%;
-  margin: 55% 0% 72% -20%;
+  margin: 20% 0% 72% -20%;
 }
-.texto{
-  
+.texto-bajo-foto{
+  text-align: center;
+  margin: 10% 40% 30% 30%;
+  color: white;
 }
 footer {
   color: white;
